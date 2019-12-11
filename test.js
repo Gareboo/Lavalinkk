@@ -5,14 +5,14 @@ const music = new Music(bot, {
 	lavalink: {
 		"restnode": {
 			"host": "localhost",
-			"port": 8643,
+			"port": 3000,
 			"password":"youshallnotpass"
 		},
 		"nodes": [
-			{ "host": "localhost", "port": 8643, "region": "asia", "password": "youshallnotpass" }
+			{ "host": "localhost", "port": 3000, "region": "asia", "password": "youshallnotpass" }
 		]
 	},
 	admins: ["455346525716086795"]
 });
 
-bot.login("TR0_L0-LOLOLOLOL0-l0l0l0l0");
+bot.login("NjUzOTkzMTg2ODQ2NTcyNTQ1.Xe_EzA.3SX4xf50ndeFNK_ETHBxpmUSvv8");

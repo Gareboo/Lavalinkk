@@ -41,17 +41,17 @@ module.exports = function (client, options) {
 			this.lavalink = (options && options.lavalink) || {
 				restnode: {
 					host: "localhost",
-					port: 8643,
+					port: 3000,
 					password: "youshallnotpass"
 				},
 				nodes: [
-					{ host: "localhost", port: 8643, region: "asia", password: "youshallnotpass" }
+					{ host: "localhost", port: 3000, region: "asia", password: "youshallnotpass" }
 				]
 			};
 			this.package = PACKAGE;
 
 			clientt.player = null;
-			//this.token = (options && options.token);
+			this.token = (options && options.token);
 
 			// Commands
 
