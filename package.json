@@ -1,27 +1,59 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
-  "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
+  "_from": "discord.js-lavalink-musicbot",
+  "_id": "discord.js-lavalink-musicbot@0.0.6",
+  "_inBundle": false,
+  "_integrity": "sha1-v2D4v9xDpNwGb6J6mLe5WQLgkFM=",
+  "_location": "/discord.js-lavalink-musicbot",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "discord.js-lavalink-musicbot",
+    "name": "discord.js-lavalink-musicbot",
+    "escapedName": "discord.js-lavalink-musicbot",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/discord.js-lavalink-musicbot/-/discord.js-lavalink-musicbot-0.0.6.tgz",
+  "_shasum": "bf60f8bfdc43a4dc066fa27a98b7b95902e09053",
+  "_spec": "discord.js-lavalink-musicbot",
+  "_where": "H:\\Bots\\RekrastikBetaJS",
+  "author": {
+    "name": "BluSpring"
+  },
+  "bugs": {
+    "url": "https://github.com/BluSpring/discord.js-lavalink-musicbot/issues"
+  },
+  "bundleDependencies": [],
   "dependencies": {
-    "express": "^4.16.4"
+    "axios": "^0.19.0",
+    "discord.js": "^11.5.1",
+    "discord.js-lavalink": "^2.2.3"
   },
-  "engines": {
-    "node": "8.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
-  },
-  "license": "MIT",
+  "deprecated": false,
+  "description": "A discord.js music bot module based on DarkoPendragon and nexu-dev's discord.js-musicbot-addon module, except using Lavalink.",
+  "homepage": "https://github.com/BluSpring/discord.js-lavalink-musicbot#readme",
   "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "musicbot",
+    "discord.js",
+    "discord",
+    "music",
+    "lavalink"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "discord.js-lavalink-musicbot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BluSpring/discord.js-lavalink-musicbot.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.9"
 }
