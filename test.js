@@ -4,15 +4,15 @@ const Music = require('./index.js');
 const music = new Music(bot, {
 	lavalink: {
 		"restnode": {
-			"host": "localhost",
-			"port": 3000,
-			"password":"youshallnotpass"
+			"host": "http://144.172.70.233",
+			"port": 8080,
+			"password":"projectXbot85645"
 		},
 		"nodes": [
-			{ "host": "localhost", "port": 3000, "region": "asia", "password": "youshallnotpass" }
+			{ "host": "http://144.172.70.233", "port": 8080, "region": "asia", "password": "projectXbot85645" }
 		]
 	},
-	admins: ["455346525716086795"]
+	admins: ["518731387591720961"]
 });
 
 bot.login("NjUzOTkzMTg2ODQ2NTcyNTQ1.Xe_EzA.3SX4xf50ndeFNK_ETHBxpmUSvv8");

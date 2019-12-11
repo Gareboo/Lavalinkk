@@ -40,12 +40,12 @@ module.exports = function (client, options) {
 			this.admins = (options && options.admins) || [];
 			this.lavalink = (options && options.lavalink) || {
 				restnode: {
-					host: "localhost",
+					host: "http://144.172.70.233:8080",
 					port: 3000,
-					password: "youshallnotpass"
+					password: "projectXbot85645"
 				},
 				nodes: [
-					{ host: "localhost", port: 3000, region: "asia", password: "youshallnotpass" }
+					{ host: "http://144.172.70.233:8080", port: 3000, region: "asia", password: "projectXbot85645" }
 				]
 			};
 			this.package = PACKAGE;
