@@ -40,18 +40,18 @@ module.exports = function (client, options) {
 			this.admins = (options && options.admins) || [];
 			this.lavalink = (options && options.lavalink) || {
 				restnode: {
-					host: "http://144.172.70.233:8080",
+					host: "localhost",
 					port: 3000,
-					password: "projectXbot85645"
+					password: "youshallnotpass"
 				},
 				nodes: [
-					{ host: "http://144.172.70.233:8080", port: 3000, region: "asia", password: "projectXbot85645" }
+					{ host: "localhost", port: 3000, region: "asia", password: "youshallnotpass" }
 				]
 			};
 			this.package = PACKAGE;
 
 			clientt.player = null;
-			//this.token = (options && options.token);
+			this.token = (options && options.token);
 
 			// Commands
 
@@ -339,7 +339,7 @@ module.exports = function (client, options) {
 	}
 	
 	music.play = async (message, suffix) => { // Not willing to add notes here. Lazy.
-		const args = message.content.split(' ').slice(music.prefix.split(' ').length);
+		/*const args = message.content.split(' ').slice(music.prefix.split(' ').length);
 		if(!args[0]) return message.channel.send('No arguments defined!')
 
         const player = await bot.player.join({
@@ -415,7 +415,7 @@ module.exports = function (client, options) {
 			message.channel.send(embed);
 			music.log(`Added track "${song.tracks[0].info.title}" in server ${message.guild.name}`, 'ADDTRK');
 			if(queue.length === 1) music.execQueue(message, queue, player);
-		}
+		}*/
 		const msg = message;
 		const betterArgs = suffix.join(' ').trim();
 		let canPlay = false;
@@ -529,7 +529,7 @@ module.exports = function (client, options) {
 		// This is old af
 
 		//console.log(queue[0]);
-		if(queue[0] == undefined) {
+		/*if(queue[0] == undefined) {
 			message.channel.send(`Queue seems to be empty... Weird. Time to leave the VC!`);
 			await bot.player.leave(message.guild.id);
 			delete currentTrack[message.guild.id];
@@ -560,7 +560,7 @@ module.exports = function (client, options) {
 					delete currentTrack[message.guild.id];
 				}
 			});
-		}
+		}*/
 
 		// Here's some better code :D
 
