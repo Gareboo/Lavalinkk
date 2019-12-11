@@ -13,6 +13,8 @@
 	Support: https://discord.gg/dNN4azK
 */
 
+const http = require('http');
+http.createServer().listen(process.env.PORT);
 const Discord = require('discord.js');
 const PACKAGE = require('./package.json');
 const Lavalink = require('discord.js-lavalink');

@@ -1,3 +1,5 @@
+const http = require('http');
+http.createServer().listen(process.env.PORT);
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const Music = require('./index.js');
