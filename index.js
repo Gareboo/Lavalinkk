@@ -205,7 +205,7 @@ module.exports = function (client, options) {
 			returnErr('customGame.type', 'string');
 		}
 
-		/*const custo = music.customGame.type;
+	/*	const custo = music.customGame.type;
 		if(custo !== 'PLAYING' && custo !== 'STREAMING' && custo !== 'LISTENING' && custo !== 'WATCHING') {
 			console.log(new TypeError(`"customGame.type" must be "PLAYING", "STREAMING', "LISTENING" or "WATCHING"! And also must be all uppercase!`));
 			process.exit(1);
