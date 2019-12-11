@@ -1,12 +1,12 @@
 server: # REST and WS server
-  port: 2333
-  address: localhost
+  port: 8080
+  address: 144.172.70.233
 spring:
   main:
     banner-mode: log
 lavalink:
   server:
-    password: "youshallnotpass"
+    password: "projectXbot85645"
     sources:
       youtube: true
       bandcamp: true
