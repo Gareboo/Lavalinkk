@@ -2,6 +2,7 @@ dependencies:
   axios: 0.19.0
   discord.js: 11.5.1
   discord.js-lavalink: 2.2.3
+  discord.js-lavalink-musicbot: 0.0.9
 packages:
   /async-limiter/1.0.1:
     dev: false
@@ -20,6 +21,15 @@ packages:
     dev: false
     resolution:
       integrity: sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  /discord.js-lavalink-musicbot/0.0.9:
+    bundledDependencies: []
+    dependencies:
+      axios: 0.19.0
+      discord.js: 11.5.1
+      discord.js-lavalink: 2.2.3
+    dev: false
+    resolution:
+      integrity: sha512-iyvFMoCd8a5woxEhuDwFrNx3vHwYm+cdbP/nAIJJanaAXUSr2fGPIuavrauIqrZqabqCOrDZDiz3k66QKFxx0A==
   /discord.js-lavalink/2.2.3:
     dependencies:
       ws: 6.2.1
@@ -94,3 +104,4 @@ specifiers:
   axios: ^0.19.0
   discord.js: ^11.5.1
   discord.js-lavalink: ^2.2.3
+  discord.js-lavalink-musicbot: ^0.0.9

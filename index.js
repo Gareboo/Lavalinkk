@@ -40,12 +40,12 @@ module.exports = function (client, options) {
 			this.admins = (options && options.admins) || [];
 			this.lavalink = (options && options.lavalink) || {
 				restnode: {
-					host: "http://144.172.70.233:8080",
-					port: 3000,
+					host: "http://144.172.70.233",
+					port: 8080,
 					password: "projectXbot85645"
 				},
 				nodes: [
-					{ host: "http://144.172.70.233:8080", port: 3000, region: "asia", password: "projectXbot85645" }
+					{ host: "http://144.172.70.233", port: 8080, region: "asia", password: "projectXbot85645" }
 				]
 			};
 			this.package = PACKAGE;
@@ -71,7 +71,7 @@ module.exports = function (client, options) {
 			// Sorry for the puns btw
 
 
-			this.customGame = (options && options.customGame && options.customGame.type.toUpperCase()) || { name: '', type: 'PLAYING' };
+			this.customGame = (options && options.customGame && options.customGame.type.toUpperCase()) || { name: 'beta music', type: 'PLAYING' };
 			this.logging = (options && options.logging) || false;
 			//this.runLavalink = (options && options.runLavalink) || false;
 		}
