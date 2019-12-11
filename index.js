@@ -41,7 +41,7 @@ module.exports = function (client, options) {
 			this.lavalink = (options && options.lavalink) || {
 				restnode: {
 					host: "144.172.70.233",
-					port: ,
+					port: 8080,
 					password: "projectXbot85645"
 				},
 				nodes: [
