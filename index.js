@@ -48,7 +48,7 @@ module.exports = function (client, options) {
 					password: "projectXbot85645"
 				},
 				nodes: [
-					{ host: "144.172.70.233", port: 8080, region: "asia", password: "projectXbot85645" }
+					{ host: "144.172.70.233",address: http://144.172.70.233:8080, port: 8080, region: "asia", password: "projectXbot85645" }
 				] 
 			};
 			this.package = PACKAGE; 

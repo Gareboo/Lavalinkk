@@ -12,10 +12,11 @@ const music = new Music(bot, {
 			"password":"projectXbot85645"
 		},
 		"nodes": [
-			{ "host": "144.172.70.233", "port": 8080, "region": "asia", "password": "projectXbot85645" }
+			{ "host": "music", "port": 8080, "region": "asia", "password": "projectXbot85645" }
 		]
 	},
 	admins: ["518731387591720961"]
-});//
+});
+
 
 bot.login("NjUzOTkzMTg2ODQ2NTcyNTQ1.Xe_EzA.3SX4xf50ndeFNK_ETHBxpmUSvv8");
