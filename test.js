@@ -12,7 +12,7 @@ const music = new Music(bot, {
 			"password":"projectXbot85645"
 		},
 		"nodes": [
-			{ "host": "music", "port": 8080, "region": "asia", "password": "projectXbot85645" }
+			{ "host": "music", "address": "ws://144.172.70.233:8080", "port": 8080, "region": "asia", "password": "projectXbot85645" }
 		]
 	},
 	admins: ["518731387591720961"]
