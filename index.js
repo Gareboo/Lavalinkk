@@ -303,7 +303,7 @@ module.exports = function (client, options) {
 		if(music.customGame.type == 'STREAMING') {
 			client.user.setPresence({ activity: { name: music.customGame.name, type: 'STREAMING', url: 'https://twitch.tv/monstercat'}});
 		} else {
-			if(music.customGame.name == '') return;
+			if(music.customGame.name == 'hello') return;
 			client.user.setPresence({ activity: music.customGame });
 		}
 	});
