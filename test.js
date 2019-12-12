@@ -15,6 +15,6 @@ const music = new Music(bot, {
 		]
 	},
 	admins: ["518731387591720961"]
-});
+});//
 
 bot.login("NjUzOTkzMTg2ODQ2NTcyNTQ1.Xe_EzA.3SX4xf50ndeFNK_ETHBxpmUSvv8");
