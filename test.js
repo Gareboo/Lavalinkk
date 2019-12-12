@@ -6,7 +6,8 @@ const Music = require('./index.js');
 const music = new Music(bot, {
 	lavalink: {
 		"restnode": {
-			"host": "http://144.172.70.233",
+			"host": "music",
+      "address": "http://144.172.70.233:8080",
 			"port": 8080,
 			"password":"projectXbot85645"
 		},
