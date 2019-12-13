@@ -20,6 +20,7 @@ http.createServer().listen(process.env.PORT);
 
   bot.on('ready', () => {
     console.log('Hi');
+    bot.setActivity("olala")
   });
 
   bot.login("NjUzOTkzMTg2ODQ2NTcyNTQ1.Xe_EzA.3SX4xf50ndeFNK_ETHBxpmUSvv8");
