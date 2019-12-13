@@ -20,7 +20,18 @@ http.createServer().listen(process.env.PORT);
 
   bot.on('ready', () => {
     console.log('Hi');
-    bot.setActivity("olala")
+
   });
+bot.on('ready', () => {
+    bot.user.setStatus('available')
+    bot.user.setPresence({
+        game: {
+            name: 'launched soon',
+            type: "STREAMING",
+            url: "https://www.twitch.tv/monstercat"
+        }
+    });
+});
+
 
   bot.login("NjUzOTkzMTg2ODQ2NTcyNTQ1.Xe_EzA.3SX4xf50ndeFNK_ETHBxpmUSvv8");
