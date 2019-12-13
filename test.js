@@ -1,6 +1,5 @@
 const http = require('http');
 http.createServer().listen(process.env.PORT);
-setTimeout(() => {
   const Discord = require('discord.js');
   const bot = new Discord.Client();
   const Music = require('./index.js');
@@ -8,12 +7,12 @@ setTimeout(() => {
     lavalink: {
       "restnode": {
         "host": "music",
-        "address": "http://localhost:4568",
-        "port": 8080,
-        "password":"projectXbot85645"
+        "address": "http://bluspring-uranus-lavalink.glitch.me",
+        "port": 3000,
+        "password":"youshallnotpassWORD"
       },
       "nodes": [
-        { "host": "music", "address": "ws://localhost:4568", "port": 8080, "region": "asia", "password": "projectXbot85645" }
+        { "host": "music", "address": "ws://bluspring-uranus-lavalink.glitch.me", "port": 3000, "region": "asia", "password": "youshallnotpassWORD" }
       ]
     },
     admins: ["518731387591720961"]
@@ -24,4 +23,3 @@ setTimeout(() => {
   });
 
   bot.login("NjUzOTkzMTg2ODQ2NTcyNTQ1.Xe_EzA.3SX4xf50ndeFNK_ETHBxpmUSvv8");
-}, 30000);

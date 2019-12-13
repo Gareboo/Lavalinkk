@@ -56,5 +56,6 @@
   "scripts": {
     "start": "node test.js"
   },
+  "engines": { "node": "12.x" },
   "version": "0.0.9"
 }
