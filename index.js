@@ -74,7 +74,7 @@ module.exports = function (client, options) {
 			// Sorry for the puns btw
 
 
-			this.customGame = (options && options.customGame && options.customGame.type.toUpperCase()) || { name: 'beta music', type: 'PLAYING' };
+			this.customGame = (options && options.customGame && options.customGame.type.toUpperCase()) || { name: '', type: 'PLAYING' };
 			this.logging = (options && options.logging) || false;
 			//this.runLavalink = (options && options.runLavalink) || false;
 		}
