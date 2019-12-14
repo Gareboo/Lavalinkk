@@ -34,4 +34,4 @@ bot.on('ready', () => {
 });
 
 
-  bot.login("NjUzOTkzMTg2ODQ2NTcyNTQ1.Xe_EzA.3SX4xf50ndeFNK_ETHBxpmUSvv8");
+  bot.login("NjUzOTkzMTg2ODQ2NTcyNTQ1.XfTtkQ.4EI8WXYValWVRgJ-tBYnCTaEFAs");
