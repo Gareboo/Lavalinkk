@@ -7,12 +7,12 @@ http.createServer().listen(process.env.PORT);
     lavalink: {
       "restnode": {
         "host": "music",
-        "address": "http://bluspring-uranus-lavalink.glitch.me",
+        "address": "https://frederikam-lavalink-4.glitch.me",
         "port": 3000,
-        "password":"youshallnotpassWORD"
+        "password": "raj"
       },
       "nodes": [
-        { "host": "music", "address": "ws://bluspring-uranus-lavalink.glitch.me", "port": 3000, "region": "asia", "password": "youshallnotpassWORD" }
+        { "host": "music", "address": "https://frederikam-lavalink-4.glitch.me", "port": 3000, "region": "asia", "password": "raj" }
       ]
     },
     admins: ["518731387591720961"]
@@ -34,4 +34,4 @@ bot.on('ready', () => {
 });
 
 
-  bot.login("NjUzOTkzMTg2ODQ2NTcyNTQ1.XfjaJg.hF5rNE22crPvZJdvNag2uZT7RPI");
+  bot.login("NjM2OTI4Njc1MDgxNjE3NDA4.XkP03w.lsghf1s67jxNDbaCxIIOPrK3Yd4");
