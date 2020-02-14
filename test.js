@@ -8,11 +8,11 @@ http.createServer().listen(process.env.PORT);
       "restnode": {
         "host": "music",
         "address": "https://frederikam-lavalink-4.glitch.me",
-        "port": 3000,
+        "port": 8080,
         "password": "raj"
       },
       "nodes": [
-        { "host": "music", "address": "https://frederikam-lavalink-4.glitch.me", "port": 3000, "region": "asia", "password": "raj" }
+        { "host": "music", "address": "https://frederikam-lavalink-4.glitch.me", "port": 8080, "region": "asia", "password": "raj" }
       ]
     },
     admins: ["518731387591720961"]
@@ -34,4 +34,4 @@ bot.on('ready', () => {
 });
 
 
-  bot.login("NjM2OTI4Njc1MDgxNjE3NDA4.XkP03w.lsghf1s67jxNDbaCxIIOPrK3Yd4");
+  bot.login("NjUxMzYyNjU4ODE3Mjc3OTcy.Xkbiew.G7w4e9OcPmUuC4vbUOAYv6BJlhs");
