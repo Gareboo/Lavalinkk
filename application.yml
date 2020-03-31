@@ -1,12 +1,12 @@
 server: # REST and WS server
-  port: 4568
+  port: 3000
   address: 0.0.0.0
 spring:
   main:
     banner-mode: log
 lavalink:
   server:
-    password: "projectXbot85645"
+    password: "projectX"
     sources:
       youtube: true
       bandcamp: true

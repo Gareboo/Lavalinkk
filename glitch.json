@@ -1,0 +1,10 @@
+{
+  "start": "java -Dnogui=true -jar Lavalink.jar && node server.js",
+  "install": "echo 'compiling' && mvn compile",
+  "watch": {
+    "throttle": 500,
+    "install": {
+      "include": ["^pom\\.xml$", "\\.java$"]
+    }
+  }
+}
