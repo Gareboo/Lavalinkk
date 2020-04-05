@@ -1,5 +1,5 @@
 dependencies:
-  axios: 0.19.2
+  axios: 0.19.0
   discord.js: 11.5.1
   discord.js-lavalink: 2.2.3
   discord.js-lavalink-musicbot: 0.0.9
@@ -15,12 +15,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-1uvKqKQta3KBxIz14F2v06AEHZ/dIoeKfbTRkK1E5oqjDnuEerLmYTgJB5AiQZHJcljpg1TuRzdjDR06qNk0DQ==
-  /axios/0.19.2:
-    dependencies:
-      follow-redirects: 1.5.10
-    dev: false
-    resolution:
-      integrity: sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
   /debug/3.1.0:
     dependencies:
       ms: 2.0.0
@@ -107,7 +101,7 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
-  axios: ^0.19.2
+  axios: ^0.19.0
   discord.js: ^11.5.1
   discord.js-lavalink: ^2.2.3
   discord.js-lavalink-musicbot: ^0.0.9
