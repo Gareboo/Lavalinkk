@@ -1,12 +1,12 @@
 server: # REST and WS server
   port: 2333
-  address: 68.183.95.244
+  address: lavalinkk.herokuapp.com
 spring:
   main:
     banner-mode: log
 lavalink:
   server:
-    password: "IndiaOP"
+    password: "India"
     sources:
       youtube: true
       bandcamp: true
